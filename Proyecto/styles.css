@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    background: url(https://images.unsplash.com/photo-1654404436613-5176f215af81?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     }
+
+     .plantilla{
+        background: no-repeat;
+        background: linear-gradient(to right, rgb(255, 255, 255,0.4));
+       padding: 10px;
+        box-sizing: border-box;
+
+     }
+
+     .video-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+     
+     }
+
+    h1{
+        font-family: "Gentium Book Plus", serif;
+        font-size: 64px;
+        text-align: center;   
+        color: green;  
+        text-shadow: 2px 2px white;
+    }
+
+    .saludo{
+        font-family: "Playball", cursive;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+
+    .introduccion {
+        background: linear-gradient(to right, black);
+        font-family: "Playball", cursive;
+        font-size: 15px;
+        position: relative;
+        text-align: center;
+        color: whitesmoke; 
+        background-image: url(); 
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+
+    transition-property: ;
+    transition-duration: 2s;
+
+    }
+
+    .introduccion:hover{
+        background-color: green;
+    }
+
+.menu{ 
+    background-color: green;
+    display: inline-flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+    padding: 0 80px;
+}
+
+.menu a:hover{
+    background-color: white;
+    color:green;
+}
+.menu{
+    position: static;
+
+}
+
+.social{
+  margin: 30px;  
+  lign-items: center;
+  justify-content: center;
+}
+.social a{ 
+    text-decoration: none;
+    color:white;
+    background-color: rgb(59, 59, 202);
+    padding: 4px;
+    border-radius: 4px;
+
+    padding: 0 80px;
+    color:white;
+   
+}
+.social a:hover{
+    color:white;
+    background-color:green;
+}
+
+}
