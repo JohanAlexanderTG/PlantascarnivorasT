@@ -1,2 +1,0 @@
-JohanAlexanderTG
-johagrocologo@gmail.com
